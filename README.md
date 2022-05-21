@@ -6,3 +6,8 @@ Then there is a class called account which contains all account details like acc
 Then there is a class called customer which contains all the customer details like name, age and then further all the accounts that a customer has stored in a list.
 This way all functions can logically be called and the loaning service can function.
 Currently, it is very tedious to type out the entire command to execute or display anything but I was not able to implement a better user interface due to time constraints.
+
+The system I have implemented is centralised. Demerits of centralised are
+1.Lot of delay 
+2.Entire system is affected when change occurs at a higher level
+3.Decisions are made only by the top level
