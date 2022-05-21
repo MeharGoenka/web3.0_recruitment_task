@@ -1,0 +1,17 @@
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> 
+============ RESTART: C:/Users/Mehar/Downloads/loaning service.py ============
+new customer added: {1: <__main__.customer object at 0x000001AA8D6253C8>}
+new customer added: {1: <__main__.customer object at 0x000001AA8D6253C8>, 2: <__main__.customer object at 0x000001AA8D5C7940>}
+added lender account
+added borrower account
+added lender account
+printing customer 1 details mehar 25 [<__main__.lender object at 0x000001AA8D5AC358>]
+printing customer 2 details manya 31 [<__main__.borrower object at 0x000001AA8D6254E0>, <__main__.lender object at 0x000001AA8D625A90>]
+This will amount to 13439.163793441223 in 10 years
+Bank balance = 110000 customer 1 balance = 10000
+The loan is valid, the total interest to be paid will be 3144.4731338872098
+The total amount will be 8144.47313388721
+Bank balance = 105000 customer 2 balance = 5000
+>>> 
