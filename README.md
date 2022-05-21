@@ -5,4 +5,4 @@ In my code there is a class called Loaning_system which stores the bank balance,
 Then there is a class called account which contains all account details like account id and balance. There are two subclasses of an account i.e. lender and borrower which include functions to lend and borrow money respectively.
 Then there is a class called customer which contains all the customer details like name, age and then further all the accounts that a customer has stored in a list.
 This way all functions can logically be called and the loaning service can function.
-Currently, it is very tedious to type out the entire command to execute or display anything but I was not able to implement a better user interface due to time constraints but I can assure you that given enough time I do know how to implement it.
+Currently, it is very tedious to type out the entire command to execute or display anything but I was not able to implement a better user interface due to time constraints.
