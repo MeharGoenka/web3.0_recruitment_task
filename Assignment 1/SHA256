@@ -1,0 +1,26 @@
+import hashlib
+import time
+
+begin = time.time()
+
+s1 = input("Enter String: ")
+
+s2 = "00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
+
+i = 1
+
+while(True):
+    sn = s1+str(i)
+    sn1=hashlib.sha256(sn.encode())
+    sn2=sn1.hexdigest()
+    if(sn2<s2):
+        print("The nonce value is",int(i))
+        break
+    i = int(i)
+    i+=1
+
+end = time.time()
+
+time = end - begin
+
+print("Total runtime is", time,  "seconds.")
